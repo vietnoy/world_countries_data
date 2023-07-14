@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" type="module"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <h1>World Countries Data</h1>
+        <h2>Currently, we have 250 countries</h2>
+        <p class="satisfied"></p>
+    </div>
+    <div class="interactions">
+        <input type="text" id="searchBox" placeholder="Search countries by name, capital and languages">
+        <div class="buttons">
+            <button type="submit" class="name">Name</button>
+            <button type="submit" class="capital">Capital</button>
+            <button type="submit" class="population">Population</button>
+            <a href="#stats"><i class="fa fa-bar-chart" style="font-size: 40px;"></i></a>
+        </div>
+    </div>
+    <div class="display"></div>
+    <div id="stats">
+        <button type="submit" class="populationSorting">Population</button>
+        <button type="submit" class="languagesSorting">Languages</button>
+    </div>
+    <div class="statsdisplay">
+    </div>
+</body>
+</html>

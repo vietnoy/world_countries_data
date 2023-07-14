@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    height: 100px;
+    width: 60px;
+}
+
+h1, h2, .satisfied {
+    text-align: center;
+}
+
+.satisfied {
+    text-align: center;
+    font-weight: bold;
+}
+
+.head {
+    background-color: rgb(237, 229, 229);
+    margin-top: -22px;
+    padding:20px;
+}
+
+.interactions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#searchBox {
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(202,192,192,0.8);
+    opacity: 0.7;
+}
+
+button {
+    border: none;
+    background-color: rgb(255, 196, 0);
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+}
+
+i {
+    color: rgb(255, 196, 0);
+}
+
+#searchBox:focus {
+    outline: none;
+}
+
+.buttons {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 200px;
+    height: 240px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+img {
+    height: 50px;
+    width: 80px;
+    margin: auto;
+    display: block;
+    border-radius: 2px;
+}
+
+.countryName {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 196, 0);
+    height: 40px;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    row-gap: 60px;
+    column-gap: 10px;
+    padding: 20px;
+    background-color: rgb(237, 229, 229);
+    margin: auto;
+}
+
+#arrow {
+    color: black;
+    margin-left: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.statsdisplay {
+    margin: auto;
+    background-color: rgb(237, 229, 229);
+}
+
+.bar {
+    background-color: rgb(255, 196, 0);
+    height: 30px;
+}
+
+.name1 {
+    width: 220px;
+}
+
+.container {
+    width: 600px;
+}
+
+#stats {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+    justify-content: space-around;
+}
